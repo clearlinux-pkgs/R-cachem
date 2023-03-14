@@ -4,7 +4,7 @@
 #
 Name     : R-cachem
 Version  : 1.0.7
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/cachem_1.0.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cachem_1.0.7.tar.gz
 Summary  : Cache R Objects with Automatic Pruning
@@ -16,9 +16,6 @@ Requires: R-rlang
 BuildRequires : R-fastmap
 BuildRequires : R-rlang
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 either their total size or the age of the oldest object (or both),
@@ -41,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1677260816
+export SOURCE_DATE_EPOCH=1678811791
 
 %install
-export SOURCE_DATE_EPOCH=1677260816
+export SOURCE_DATE_EPOCH=1678811791
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
