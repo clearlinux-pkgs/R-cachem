@@ -5,7 +5,7 @@
 #
 Name     : R-cachem
 Version  : 1.0.8
-Release  : 18
+Release  : 19
 URL      : https://cran.r-project.org/src/contrib/cachem_1.0.8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/cachem_1.0.8.tar.gz
 Summary  : Cache R Objects with Automatic Pruning
